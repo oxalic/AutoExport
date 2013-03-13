@@ -1,9 +1,9 @@
-Intro
+Intro:
 ======
 This is a small script that I wrote that allows for the exporting groups of 
 an inkscape svg file as .png, .eps and plain svg in one simple step.
 
-My Use Case
+My Use Case:
 ===========
 I use it because I am writing a paper in [pandoc](http://johnmacfarlane.net/pandoc/) and 
 use a preprocessor (gpp) to automatically insert the correct format of image based 
@@ -16,7 +16,7 @@ as well as reactions. This allows any group to become a target for export
 whether or not it is contained within a larger group also targeted for export 
 and ensures that all images are updated when the master file is updated.
 
-Instructions
+Instructions:
 ============
 Make an .svg file containing all the images that your heart desires. 
 
@@ -40,7 +40,7 @@ Now just call this program:
 and wait for it to export all the correctly named groups as seperate 
 images in all selected formats.
 
-Disclaimer etc
+Disclaimer etc.:
 ==============
 I'm not very good at python, and don't really know my way around the
 .svg specification or xpath or anything like that so use at your own 
